@@ -33,7 +33,7 @@ defaults:
 paginate: 20
 
 #### Site
-title : Jekyll Jacman
+title : swnj
 tagline: A fresh looking and responsive theme for Jekyll
 assets: /assets
 baseurl: 
