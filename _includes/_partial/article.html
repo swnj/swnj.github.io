@@ -11,14 +11,14 @@
         {{ item.content }}
         {% endif %}
         
-        <p class="article-more-link">
+       <!--  <p class="article-more-link">
           {% if item.excerpt and index and site.index.excerpt_link %}
             <a href="{{ site.baseurl }}{{ item.url }}#more">{{ site.index.excerpt_link }}</a>
           {% endif %}
-       </p>
+       </p> -->
     </div>
     {% assign index = true %}
-    {% include _partial/post/footer.html %}
+    <!-- {% include _partial/post/footer.html %} -->
     </article>
 {% else %}
 <section class="post" itemscope itemprop="blogitem">
