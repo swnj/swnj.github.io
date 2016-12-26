@@ -1008,7 +1008,7 @@ article header.article-info>p.article-author {
 }
 
 article header.article-info>p.article-time {
-	padding-top: .5em;
+	/*padding-top: .5em;*/
 	font-size: .8em;
 	text-align: center;
 	margin-bottom: -2.7em;
@@ -1601,6 +1601,8 @@ footer.article-footer {
 	color: #d6d6d6;
 	margin-top: .3em;
 	margin-right: 3em;
+	float: right;
+	margin-left: 3em;
 }
 
 .article-categories span:before {
