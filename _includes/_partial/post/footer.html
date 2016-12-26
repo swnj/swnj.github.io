@@ -1,6 +1,6 @@
-<footer class="article-footer clearfix">
+<footer class="article-footer clearfix" style="height:0px;">
 {% include _partial/post/catetags.html %}
-{% if index == false %}
+<!-- {% if index == false %}
 	<div class="article-share" id="share">
 	{% if site.jiathis.enable %}
 	<div class="share-jiathis">
@@ -11,7 +11,7 @@
 	  </div>
 	{% endif %}
 	</div>
-{% endif %}
+{% endif %} -->
 {% if index %}
 <div class="comments-count">
 	{% if (site.disqus_shortname or site.disqus_shortname) and !site.duoshuo_shortname %}
