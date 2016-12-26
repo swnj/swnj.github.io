@@ -10,6 +10,26 @@
 		{% else %}
 		<a href="{{ site.baseurl }}/about" title="{{ site.author.name }}" target="_blank" itemprop="author">{{ site.author.name }}</a>
 		{% endif %} -->
+
+<div class="article-catetags">
+{% if item.categories and (item.categories | size != 0) %}
+<div class="article-categories">
+  <span></span>
+  <!--
+  <%- list_categories(item.categories, {
+      show_count: false,
+      class: 'article-category',
+      style: 'none',
+      separator: '►'
+  }) %>
+  -->
+  {% for category in item.categories %}
+  <a class="article-category-link" href="{{ site.baseurl }}/categories/#{{ category }}">{{ category }}</a>
+  {% endfor %}
+</div>
+{% endif %}
+</div>
+		
   <p class="article-time">
     <time datetime="{{ item.date }}" itemprop="datePublished"> {{ lang.datepublished }} {{ item.date | date: "%F" }}</time>
     

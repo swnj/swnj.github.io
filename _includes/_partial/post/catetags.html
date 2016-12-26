@@ -15,19 +15,19 @@
   {% endfor %}
 </div>
 {% endif %}
-{% if item.tags and item.tags | size != 0 %}
+<!-- {% if item.tags and item.tags | size != 0 %}
   <div class="article-tags">
-  <!--
+  
   <% var tags = [];
     item.tags.forEach(function(tag){
       tags.push('<a href="' + config.root + tag.path + '">' + tag.name + '</a>');
-    }); %>-->
-  <span></span> <!--<%- tags.join('') %>-->
+    }); %>
+  <span></span> <%- tags.join('') %>
   
   {% for tag in item.tags %}
   <a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>
   {% endfor %}
   </div>
-{% endif %}
+{% endif %} -->
 </div>
 
