@@ -976,7 +976,7 @@ header nav ul li a:hover {
 	}
 }
 
-article header.article-info>h1 {
+article header.article-info>h2 {
 	padding: .2em 3%;
 	padding-bottom:0px;
 	font-size: 170%;
