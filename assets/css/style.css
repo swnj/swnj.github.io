@@ -978,6 +978,7 @@ header nav ul li a:hover {
 
 article header.article-info>h1 {
 	padding: .2em 3%;
+	padding-bottom:0px;
 	font-size: 170%;
 	line-height: 1.5;
 	word-wrap: break-word;
