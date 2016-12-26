@@ -1034,7 +1034,7 @@ article header.article-info>p.article-time:before {
 
 article .article-content {
 	padding: 1.5em 4%;
-	paddding-top:5px;
+	padding-top:5px;
 	padding-bottom:5px;
 	color: #413f3f;
 	font-size: 100%;
@@ -1069,6 +1069,8 @@ article .article-content h1, article .article-content h2 {
 	margin-top: 0.5em;
 	border-bottom: 2px solid #dbdbdb
 }
+
+article .article-content h2 { border-bottom: 0px;}
 
 article .article-content h3 {
 	font-size: 140%;
