@@ -710,7 +710,7 @@ header nav ul li a:hover {
 
 #main article.post-expand {
 	background: #fafafa;
-	margin-bottom: 3.5em;
+	margin-bottom: 1.8em;
 }
 
 #main article.post-expand .img-logo {
@@ -1035,7 +1035,6 @@ article header.article-info>p.article-time:before {
 article .article-content {
 	padding: 1.5em 4%;
 	padding-top:5px;
-	padding-bottom:5px;
 	color: #413f3f;
 	font-size: 100%;
 }
@@ -1094,7 +1093,7 @@ article .article-content h1, article .article-content h2, article .article-conte
 article .article-content h1>code, article .article-content h2>code,
 	article .article-content h3>code, article .article-content h4>code,
 	article .article-content h5>code, article .article-content h6>code {
-	color: #a3a3a3
+	color: #E506CF;
 }
 
 article .article-content hr {
@@ -1604,7 +1603,7 @@ footer.article-footer {
 
 .article-categories {
 	color: #d6d6d6;
-	margin-top: .3em;
+	/* margin-top: .3em; */
 	margin-right: 3em;
 	float: right;
 	margin-left: 3em;
