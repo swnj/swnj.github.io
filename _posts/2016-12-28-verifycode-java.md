@@ -7,6 +7,8 @@ categories: java
 
 ---
 
+  验证码工具类
+
 ## 工具类
 	package com.utils;
 	
