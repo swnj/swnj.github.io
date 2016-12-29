@@ -16,7 +16,7 @@
 					 {% for m in site.menu %}
 						<li><a href="{{ site.baseurl }}{{ m[1] }}">{{ m[0] }}</a></li>
 					{% endfor %}
-					<li>
+					<!-- <li>
  					{% if site.google_cse.enable %}
 					<form class="search" action="{{ site.baseurl }}/search/" method="get" accept-charset="utf-8">
 						<label>Search</label>
@@ -39,7 +39,7 @@
 						<input type="hidden" name="q" value="site:{{ site.baseurl | replace: 'http://', '' | replace: 'https://', '' }}">
 					</form>
 					{% endif %}
-					</li>
+					</li> -->
 				</ul>
 			</nav>	
 </div>
