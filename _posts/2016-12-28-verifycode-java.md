@@ -9,7 +9,7 @@ categories: java
 
 ### 验证码工具类 
 
-## 工具类
+```java
 	package com.utils;
 	
 	import java.awt.Color;
@@ -279,9 +279,11 @@ categories: java
 			}
 		}
 	}
+```
 
 ## controller中（jfinal）
 
+```java
 	public void verifyCode() throws IOException {
 		HttpServletResponse response = getResponse();
 		HttpServletRequest request = getRequest();
@@ -300,6 +302,7 @@ categories: java
 		ZJ_VerifyCodeUtils.outputImage(w, h, response.getOutputStream(), verifyCode);
 		renderNull();
 	}
+```
 
 ## 页面中
 	<img id="login_verifyCode" alt="" src="${basePath!}html/verifyCode" style="height: 25px;width: 58px;">
