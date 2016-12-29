@@ -46,6 +46,7 @@ language: zh-CN    ## blog site languages: en, zh-CN, zh-TW
 menu:
   主页: /
   日期归档: /archives
+  分类归档: /categories
   工具: /ntools
   About: /about
 ## you can create `tags` and `categories` folders in `../source`.
