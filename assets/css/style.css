@@ -105,7 +105,8 @@ sub, sup {
 
 sup {
 	top: -.5em;
-	padding-left: .3em
+	padding-left: .3em;
+	color: #ED08EC;
 }
 
 sub {
