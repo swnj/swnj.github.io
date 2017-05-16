@@ -9,9 +9,10 @@ categories: java
 
 ### springmvc中文件上传的三种方式 
 
-##
+## 
 
 前端代码
+
 	<form name="serForm" action="/SpringMVC006/fileUpload" method="post" enctype="multipart/form-data">
 	<h1>采用流的方式上传文件</h1>
 	<input type="file" name="file">
@@ -172,4 +173,5 @@ fileName：test.rar
 从测试结果我们可以看到：用springMVC自带的上传文件的方法要快的多！
 
 对于测试二的结果：可能是方法三得挨个搜索，所以要慢点。不过一般情况下我们是方法三，因为他能提供给我们更多的方法
+
 
