@@ -14,7 +14,7 @@ categories: springmvc
 	
 	web.xml中配置
 
-	<!-- 多部分文件上传 -->
+	<!-- 获取项目根目录 -->
     <context-param>  
         <param-name>webAppRootKey</param-name>   
         <param-value>tansungWeb.root</param-value>  
