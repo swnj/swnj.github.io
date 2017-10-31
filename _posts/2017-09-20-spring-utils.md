@@ -8,9 +8,7 @@ categories: springmvc
 
 ---
 
-### springmvc工具说明 
-
-## 
+### springmvc工具说明
 
 
 获取项目根目录：
