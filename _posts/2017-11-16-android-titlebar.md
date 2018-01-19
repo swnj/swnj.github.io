@@ -53,6 +53,8 @@ android:windowSoftInputMode="adjustResize" />
 ```
 工具类AndroidBug5497Workaround代码下面
 
+注：*以上两种方法一种不行用另外一种*
+
 ## 
 
 
