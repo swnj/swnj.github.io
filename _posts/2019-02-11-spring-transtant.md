@@ -9,9 +9,9 @@ categories: spring
 ---
 
 
-### spring事务配置与问题
+## spring事务配置与问题
 
-####spring配置事务
+###spring配置事务
 1. application.xml中配置
 
 ```java
@@ -54,7 +54,7 @@ categories: spring
  		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service"/>
 	</context:component-scan>
 ```
-####事务异常不回滚
+###事务异常不回滚
 
 方案1.例如service层处理事务，那么service中的方法中不做异常捕获，或者在catch语句中最后增加throw new RuntimeException()语句，以便让aop捕获异常再去回滚，并且在service上层（webservice客户端，view层action）要继续捕获这个异常并处理
 注意：当在dao层有try catch语句后增加throw new Exception()语句也不会发生回滚
