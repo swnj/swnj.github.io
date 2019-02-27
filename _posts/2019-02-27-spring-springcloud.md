@@ -56,15 +56,19 @@ Spring Cloud是一个基于Spring Boot实现的云应用开发工具，它为基
 ### Spring Cloud基本组件了解
 
 1 配置服务
+
 ![](https://i.imgur.com/KV4zfeu.png)
 
 2 服务发现
+
 ![](https://i.imgur.com/yvzgAja.png)
 
 3 路由网关
+
 ![](https://i.imgur.com/vVWbYT0.png)
 
 4 负载均衡
+
 ![](https://i.imgur.com/w8vPpKT.png)
 
 5 断路器  
