@@ -8,13 +8,10 @@ categories: spring
 
 ---
 
-
-## Spring Cloud 系列
-
-###spring Cloud简介
+### spring Cloud简介
 Spring Cloud是一个基于Spring Boot实现的云应用开发工具，它为基于JVM的云应用开发中涉及的配置管理、服务发现、断路器、智能路由、微代理、控制总线、全局锁、决策竞选、分布式会话和集群状态管理等操作提供了一种简单的开发方式
 
-###Spring Cloud的核心功能
+### Spring Cloud的核心功能
 + 分布式/版本化配置
 + 服务注册和发现
 + 路由
@@ -39,7 +36,7 @@ Spring Cloud是一个基于Spring Boot实现的云应用开发工具，它为基
 
 6、Turbine监控服务间的调用和熔断相关指标
 
-###Spring Cloud子项目介绍
+### Spring Cloud子项目介绍
 + Spring Cloud Config：配置管理开发工具包，可以让你把配置放到远程服务器，目前支持本地存储、Git以及Subversion。
 + Spring Cloud Bus：事件、消息总线，用于在集群（例如，配置变化事件）中传播状态变化，可与+ Spring Cloud Config联合实现热部署。
 + Spring Cloud Netflix：针对多种Netflix组件提供的开发工具包，其中包括Eureka、Hystrix、Zuul、Archaius等。
@@ -56,7 +53,7 @@ Spring Cloud是一个基于Spring Boot实现的云应用开发工具，它为基
 + Spring Cloud Stream：数据流操作开发包，封装了与Redis,Rabbit、Kafka等发送接收消息。
 + Spring Cloud CLI：基于 Spring Boot CLI，可以让你以命令行方式快速建立云组件。
 
-###Spring Cloud基本组件了解
+### Spring Cloud基本组件了解
 
 1 配置服务
 ![](https://i.imgur.com/KV4zfeu.png)
