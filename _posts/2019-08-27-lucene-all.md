@@ -11,7 +11,6 @@ categories: lucene
 
 ## 基本介绍
 该文档采用lucene7.6实现功能，使用ik-analyzer进行分词
-
 添加依赖
 
 ```java
