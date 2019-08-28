@@ -13,12 +13,11 @@ categories: lucene
 该文档采用lucene7.6实现功能，使用ik-analyzer进行分词
 添加依赖
 
-```java
-<properties>
-     <lucene.version>7.6.0</lucene.version>
-</properties>
+    <properties>
+        <lucene.version>7.6.0</lucene.version>
+    </properties>
 
-<dependency>
+    <dependency>
           <groupId> org.apache.lucene</groupId>
           <artifactId>lucene-analyzers-common</artifactId>
           <version> ${lucene.version}</version>
@@ -47,8 +46,6 @@ categories: lucene
           <artifactId>ik-analyzer</artifactId>
           <version>${lucene.version}</version>
      </dependency>
-
-```
 
 
 ## 生成索引
