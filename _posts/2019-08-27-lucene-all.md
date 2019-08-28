@@ -10,6 +10,7 @@ categories: lucene
 ---
 
 ## 基本介绍
+
 该文档采用lucene7.6实现功能，使用ik-analyzer进行分词
 添加依赖
 
@@ -18,37 +19,38 @@ categories: lucene
     </properties>
 
     <dependency>
-          <groupId> org.apache.lucene</groupId>
-          <artifactId>lucene-analyzers-common</artifactId>
-          <version> ${lucene.version}</version>
-     </dependency>
+        <groupId> org.apache.lucene</groupId>
+        <artifactId>lucene-analyzers-common</artifactId>
+        <version> ${lucene.version}</version>
+    </dependency>
 
-     <dependency>
-          <groupId> org.apache.lucene</groupId>
-          <artifactId>lucene-core</artifactId>
-          <version> ${lucene.version}</version>
-     </dependency>
+    <dependency>
+        <groupId> org.apache.lucene</groupId>
+        <artifactId>lucene-core</artifactId>
+        <version> ${lucene.version}</version>
+    </dependency>
 
-     <dependency>
-          <groupId> org.apache.lucene</groupId>
-          <artifactId>lucene-highlighter</artifactId>
-          <version> ${lucene.version}</version>
-     </dependency>
+    <dependency>
+        <groupId> org.apache.lucene</groupId>
+        <artifactId>lucene-highlighter</artifactId>
+        <version> ${lucene.version}</version>
+    </dependency>
 
-     <dependency>
-          <groupId> org.apache.lucene</groupId>
-          <artifactId>lucene-queryparser</artifactId>
-          <version> ${lucene.version}</version>
-     </dependency>
+    <dependency>
+        <groupId> org.apache.lucene</groupId>
+        <artifactId>lucene-queryparser</artifactId>
+        <version> ${lucene.version}</version>
+    </dependency>
 
-     <dependency>
-          <groupId>com.github.magese</groupId>
-          <artifactId>ik-analyzer</artifactId>
-          <version>${lucene.version}</version>
-     </dependency>
+    <dependency>
+        <groupId>com.github.magese</groupId>
+        <artifactId>ik-analyzer</artifactId>
+        <version>${lucene.version}</version>
+    </dependency>
 
 
 ## 生成索引
+
 索引管理工具类
 
 ```java
@@ -146,6 +148,7 @@ public class IndexManagerUtils {
 ````
 
 ## 搜索  
+
 搜索包含指定查询、排序、分页
 
 ```java
@@ -415,7 +418,9 @@ public class IndexSearchUtils {
 }
 
 ```
-###
+
+### 查询
+
 查询分为多种TermQuery（精确查询）、TermRangeQuery（查询一个范围）、PrefixQuery（前缀匹配查询）、WildcardQuery（通配符查询）、
 BooleanQuery（多条件查询）、PhraseQuery（短语查询）、FuzzyQuery（模糊查询）、Queryparser（万能查询（上面的都可以用这个来查询到））
 其中多条件查询
